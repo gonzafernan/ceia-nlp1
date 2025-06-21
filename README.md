@@ -38,6 +38,19 @@ El corpus de texto utilizado corresponde a los diálogos en la película argenti
 
 Los modelos estuadiados son SimpleRNN, LSTM y GRU. Para todos se realizó una búsqueda de hiperparámetros utilzando `keras-tuner`.
 
+## Desafío 4: Modelo Seq2Seq
+
+**Notebook:** [4-qa_bot.ipynb](./4-qa_bot.ipynb)
+
+Implementación de modelo Seq2Seq con encoder-decoder basado en LSTM para implementación de QA chat bot.
+
+- Entrenamiento con dataset QA proveído por la cátedra.
+- Se partió de los ejercicios planteados en clase (modelo Seq2Seq traductor)
+- Interacción con el modelo entrenado.
+- Modificación del preprocesamiento y de la arquitectura en búsqueda de mejorar el desempeño del modelo.
+
+El framework utilizado fue tensorflow.
+
 ## Requerimientos
 
 Para la correcta ejecución de los diferentes notebook se necesita contar con las librerías utilizadas. Las mismas pueden instalarse de la siguiente forma:
